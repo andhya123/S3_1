@@ -21,7 +21,7 @@ resource "aws_instance" "amazon-server" {
 }
 
 resource "aws_s3_bucket" "terraform_state" {
-  bucket = "my-tf-test-bucket"
+  bucket = "my-tf-test-bucket1"
 
   tags = {
     Name        = "mydemo12"
